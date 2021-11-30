@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('sap') {
+            steps {
+                echo 'yarrapalem'
+            }
+        }
+        stage('nrt') {
+            steps {
+                echo 'nrtengg...'
+            }
+        }
+    }
+}
